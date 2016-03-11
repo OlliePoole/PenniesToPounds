@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9E854741C93698E00E6CCF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E854731C93698E00E6CCF3 /* AppDelegate.swift */; };
+		A9E854761C93698E00E6CCF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E854751C93698E00E6CCF3 /* ViewController.swift */; };
+		A9E854791C93698E00E6CCF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E854771C93698E00E6CCF3 /* Main.storyboard */; };
+		A9E8547C1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9E8547A1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodeld */; };
+		A9E8547E1C93698E00E6CCF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E8547D1C93698E00E6CCF3 /* Assets.xcassets */; };
+		A9E854811C93698E00E6CCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E8547F1C93698E00E6CCF3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9E854701C93698E00E6CCF3 /* Pennies to Pounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pennies to Pounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E854731C93698E00E6CCF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9E854751C93698E00E6CCF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9E854781C93698E00E6CCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9E8547B1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pennies_to_Pounds.xcdatamodel; sourceTree = "<group>"; };
+		A9E8547D1C93698E00E6CCF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9E854801C93698E00E6CCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9E854821C93698E00E6CCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9E8546D1C93698E00E6CCF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9E854671C93698E00E6CCF3 = {
+			isa = PBXGroup;
+			children = (
+				A9E854721C93698E00E6CCF3 /* Pennies to Pounds */,
+				A9E854711C93698E00E6CCF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9E854711C93698E00E6CCF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9E854701C93698E00E6CCF3 /* Pennies to Pounds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E854721C93698E00E6CCF3 /* Pennies to Pounds */ = {
+			isa = PBXGroup;
+			children = (
+				A9E854731C93698E00E6CCF3 /* AppDelegate.swift */,
+				A9E854751C93698E00E6CCF3 /* ViewController.swift */,
+				A9E854771C93698E00E6CCF3 /* Main.storyboard */,
+				A9E8547D1C93698E00E6CCF3 /* Assets.xcassets */,
+				A9E8547F1C93698E00E6CCF3 /* LaunchScreen.storyboard */,
+				A9E854821C93698E00E6CCF3 /* Info.plist */,
+				A9E8547A1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodeld */,
+			);
+			path = "Pennies to Pounds";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9E8546F1C93698E00E6CCF3 /* Pennies to Pounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E854851C93698E00E6CCF3 /* Build configuration list for PBXNativeTarget "Pennies to Pounds" */;
+			buildPhases = (
+				A9E8546C1C93698E00E6CCF3 /* Sources */,
+				A9E8546D1C93698E00E6CCF3 /* Frameworks */,
+				A9E8546E1C93698E00E6CCF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pennies to Pounds";
+			productName = "Pennies to Pounds";
+			productReference = A9E854701C93698E00E6CCF3 /* Pennies to Pounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9E854681C93698E00E6CCF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "George McDonnell";
+				TargetAttributes = {
+					A9E8546F1C93698E00E6CCF3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A9E8546B1C93698E00E6CCF3 /* Build configuration list for PBXProject "Pennies to Pounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9E854671C93698E00E6CCF3;
+			productRefGroup = A9E854711C93698E00E6CCF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9E8546F1C93698E00E6CCF3 /* Pennies to Pounds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9E8546E1C93698E00E6CCF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E854811C93698E00E6CCF3 /* LaunchScreen.storyboard in Resources */,
+				A9E8547E1C93698E00E6CCF3 /* Assets.xcassets in Resources */,
+				A9E854791C93698E00E6CCF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9E8546C1C93698E00E6CCF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E8547C1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodeld in Sources */,
+				A9E854761C93698E00E6CCF3 /* ViewController.swift in Sources */,
+				A9E854741C93698E00E6CCF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9E854771C93698E00E6CCF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E854781C93698E00E6CCF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9E8547F1C93698E00E6CCF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E854801C93698E00E6CCF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9E854831C93698E00E6CCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9E854841C93698E00E6CCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9E854861C93698E00E6CCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pennies to Pounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.georgemcdonnell.Pennies-to-Pounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9E854871C93698E00E6CCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pennies to Pounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.georgemcdonnell.Pennies-to-Pounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9E8546B1C93698E00E6CCF3 /* Build configuration list for PBXProject "Pennies to Pounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E854831C93698E00E6CCF3 /* Debug */,
+				A9E854841C93698E00E6CCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E854851C93698E00E6CCF3 /* Build configuration list for PBXNativeTarget "Pennies to Pounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E854861C93698E00E6CCF3 /* Debug */,
+				A9E854871C93698E00E6CCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9E8547A1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9E8547B1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodel */,
+			);
+			currentVersion = A9E8547B1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodel */;
+			path = Pennies_to_Pounds.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9E854681C93698E00E6CCF3 /* Project object */;
+}
