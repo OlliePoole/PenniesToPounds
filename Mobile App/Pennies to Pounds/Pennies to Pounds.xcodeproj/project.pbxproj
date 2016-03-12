@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3B01FDA53505CEB6C058C362 /* Pods_Pennies_to_Pounds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D1766B4E1E4202461101FC /* Pods_Pennies_to_Pounds.framework */; };
+		A951A0631C9458C8008F11AF /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951A0621C9458C8008F11AF /* TransactionsViewController.swift */; };
+		A951A0651C945988008F11AF /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951A0641C945988008F11AF /* TransactionTableViewCell.swift */; };
 		A96DAE1A1C93AAFB002333AE /* NewTransactionAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96DAE191C93AAFB002333AE /* NewTransactionAnnotationView.swift */; };
 		A96DAE1E1C93D7E7002333AE /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = A96DAE1D1C93D7E7002333AE /* FXBlurView.m */; };
 		A96DAE201C941861002333AE /* NewTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96DAE1F1C941861002333AE /* NewTransactionViewController.swift */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		85D1766B4E1E4202461101FC /* Pods_Pennies_to_Pounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pennies_to_Pounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A951A0621C9458C8008F11AF /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		A951A0641C945988008F11AF /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
 		A96DAE191C93AAFB002333AE /* NewTransactionAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTransactionAnnotationView.swift; sourceTree = "<group>"; };
 		A96DAE1C1C93D7E7002333AE /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
 		A96DAE1D1C93D7E7002333AE /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 				A9E8548E1C939BBD00E6CCF3 /* Pennies to Pounds-Bridging-Header.h */,
 				A96DAE191C93AAFB002333AE /* NewTransactionAnnotationView.swift */,
 				A96DAE1F1C941861002333AE /* NewTransactionViewController.swift */,
+				A951A0621C9458C8008F11AF /* TransactionsViewController.swift */,
+				A951A0641C945988008F11AF /* TransactionTableViewCell.swift */,
 			);
 			path = "Pennies to Pounds";
 			sourceTree = "<group>";
@@ -253,9 +259,11 @@
 			files = (
 				A9E8547C1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodeld in Sources */,
 				A9E854761C93698E00E6CCF3 /* ViewController.swift in Sources */,
+				A951A0631C9458C8008F11AF /* TransactionsViewController.swift in Sources */,
 				A96DAE1E1C93D7E7002333AE /* FXBlurView.m in Sources */,
 				A9E854891C9383B200E6CCF3 /* TransactionAnnotationView.swift in Sources */,
 				A96DAE201C941861002333AE /* NewTransactionViewController.swift in Sources */,
+				A951A0651C945988008F11AF /* TransactionTableViewCell.swift in Sources */,
 				A9E854911C939BBE00E6CCF3 /* Pulse.m in Sources */,
 				A9E854741C93698E00E6CCF3 /* AppDelegate.swift in Sources */,
 				A96DAE1A1C93AAFB002333AE /* NewTransactionAnnotationView.swift in Sources */,

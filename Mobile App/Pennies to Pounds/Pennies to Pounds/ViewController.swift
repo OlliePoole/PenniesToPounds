@@ -16,12 +16,17 @@ class ViewController: UIViewController {
     var locationManager = CLLocationManager()
     var currentLocation: CLLocation?
     var currentTransitionButton: TKTransitionSubmitButton?
+    @IBOutlet weak var button: UIButton!
     
     @IBOutlet weak var blurView: FXBlurView!
     
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        
+        let logo = UIImage(named: "Coins")
+        let imageView = UIImageView(image:logo)
+        self.navigationItem.titleView = imageView
         
         locationManager.delegate = self
         // Set a movement threshold for new events.
@@ -49,11 +54,12 @@ class ViewController: UIViewController {
         blurView.layer.opacity = 1.0;
     }
     
-    func updateMap(notification: NSNotification) {
+    @IBAction func updateMap(notification: NSNotification) {
         let annotation = MKPointAnnotation()
         annotation.coordinate = currentLocation!.coordinate
         
         mapView.addAnnotation(annotation)
+        button.hidden = true
     }
     
     func checkLocationAuthorizationStatus() {

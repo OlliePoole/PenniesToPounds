@@ -34,6 +34,7 @@ class NewTransactionAnnotationView: MKAnnotationView {
         layer.addSublayer(pulse)
         
         transitionButton = TKTransitionSubmitButton(frame: CGRectMake(0, 0, 44, 44))
+        transitionButton?.backgroundColor = UIColor.clearColor()
         self.addSubview(transitionButton!)
         
         self.addSubview(contentView)
