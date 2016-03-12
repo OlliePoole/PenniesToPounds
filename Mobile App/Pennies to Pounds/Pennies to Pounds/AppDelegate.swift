@@ -18,9 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        _ = OneSignal(launchOptions: launchOptions, appId: "54c5705b-3438-4020-880c-7ef08258d709", handleNotification: nil)
+        _ = OneSignal(launchOptions: launchOptions, appId: "54c5705b-3438-4020-880c-7ef08258d709") { (message: String!, additionalData: [NSObject : AnyObject]!, isActive: Bool) -> Void in
+            NSNotificationCenter.defaultCenter().postNotificationName("updateMap", object: nil)
+        }
         
-        OneSignal.defaultClient().enableInAppAlertNotification(true)
+        OneSignal.defaultClient().enableInAppAlertNotification(false)
         
         return true
     }
@@ -47,10 +49,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
-    }
-    
-    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
-        NSNotificationCenter.defaultCenter().postNotificationName("updateMap", object: nil)
     }
 
     // MARK: - Core Data stack

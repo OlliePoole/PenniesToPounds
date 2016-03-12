@@ -8,12 +8,14 @@
 
 import UIKit
 import MapKit
+import TKSubmitTransition
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var mapView: MKMapView!
     var locationManager = CLLocationManager()
     var currentLocation: CLLocation?
+    var currentTransitionButton: TKTransitionSubmitButton?
     
     @IBOutlet weak var blurView: FXBlurView!
     
@@ -21,18 +23,37 @@ class ViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
-        blurView.blurRadius = 5
-        let layer = blurView.layer;
-        layer.shadowOpacity = 0.5;
-        layer.shadowColor = UIColor.whiteColor().CGColor
-        layer.shadowOffset = CGSizeMake(0,0)
-        layer.shadowRadius = 10
-        
         locationManager.delegate = self
         // Set a movement threshold for new events.
         self.locationManager.distanceFilter = 50000 // meters
 
         checkLocationAuthorizationStatus()
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "updateMap:", name: "updateMap", object: nil)
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        blurView.blurRadius = 5
+        blurView.layer.cornerRadius = 5
+        blurView.layer.masksToBounds = false;
+        blurView.layer.shadowColor = UIColor.whiteColor().CGColor
+        blurView.layer.backgroundColor = blurView.layer.shadowColor;
+        blurView.layer.shadowPath = UIBezierPath(roundedRect: CGRectMake(-2.0*5, -2.0*5, blurView.bounds.size.width+4.0*5, blurView.bounds.size.height+4.0*5), cornerRadius: 5).CGPath
+        
+        blurView.layer.cornerRadius = 5;
+        blurView.layer.shadowOffset = CGSizeMake(0.0, 0.0);
+        blurView.layer.shadowRadius = 5;
+        blurView.layer.shadowOpacity = 0.5;
+        blurView.layer.opacity = 1.0;
+    }
+    
+    func updateMap(notification: NSNotification) {
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = currentLocation!.coordinate
+        
+        mapView.addAnnotation(annotation)
     }
     
     func checkLocationAuthorizationStatus() {
@@ -45,7 +66,9 @@ class ViewController: UIViewController {
     
     func showLocation(location: CLLocation) {
         currentLocation = location
-        let region = MKCoordinateRegionMakeWithDistance(location.coordinate, 5000, 5000)
+        
+        let offsetLocation = CLLocation(latitude: currentLocation!.coordinate.latitude + 0.012, longitude: currentLocation!.coordinate.longitude - 0.01)
+        let region = MKCoordinateRegionMakeWithDistance(offsetLocation.coordinate, 5000, 5000)
         mapView.setRegion(region, animated: false)
         
         addAnnotations()
@@ -99,11 +122,43 @@ extension ViewController: CLLocationManagerDelegate {
     }
 }
 
-extension ViewController: MKMapViewDelegate {
+extension ViewController: MKMapViewDelegate, UIViewControllerTransitioningDelegate {
     
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
-        let annotation = TransactionAnnotationView(annotation: annotation, reuseIdentifier: nil)
-        
-        return annotation;
+        let distanceThreshold: CLLocationDistance = 2.0
+        if currentLocation!.distanceFromLocation(CLLocation(latitude: annotation.coordinate.latitude, longitude: annotation.coordinate.longitude)) < distanceThreshold {
+            let annotationView = NewTransactionAnnotationView(annotation: annotation, reuseIdentifier: nil)
+            return annotationView
+        } else {
+            let annotationView = TransactionAnnotationView(annotation: annotation, reuseIdentifier: nil)
+            return annotationView
+        }
+
+    }
+    
+    func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
+        if (view.isKindOfClass(NewTransactionAnnotationView)) {
+            currentTransitionButton = (view as! NewTransactionAnnotationView).transitionButton
+            currentTransitionButton!.startLoadingAnimation()
+            performSelector("finishTransition", withObject: nil, afterDelay: 1.0)
+        }
+    }
+    
+    func finishTransition() {
+        currentTransitionButton?.startFinishAnimation(0, completion: { () -> () in
+            let secondVC = self.storyboard?.instantiateViewControllerWithIdentifier("NewTransaction") as! NewTransactionViewController
+            secondVC.transitioningDelegate = self
+            self.presentViewController(secondVC, animated: true, completion: nil)
+        })
+    }
+    
+    
+    // MARK: UIViewControllerTransitioningDelegate
+    func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        let fadeInAnimator = TKFadeInAnimator()
+        return fadeInAnimator
+    }
+    func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return nil
     }
 }

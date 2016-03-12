@@ -7,58 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		189AA305AA6670BE0A6A97CFC5448362 /* Pods-Pennies to Pounds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11385DD1AF968960899E001543E700E5 /* Pods-Pennies to Pounds-dummy.m */; };
-		B356272427B250F46899E2448D73EE94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		525545230909B2C3F28A918235D9D0BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5633E002DFEA4BB4F90CE3C18BE75197 /* TKSubmitTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1120A25265706E26C67626B5A416425 /* TKSubmitTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C928D2C3B26F277F726E55C59B663E /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525919FCE7AEA462F1A5C81EC2F23E3 /* SpinerLayer.swift */; };
+		66C3393FCAC39EFE47E35D91F7C789B2 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E66B7CDAC10B0A3901FA5C7262E5D /* CGRectEx.swift */; };
+		71136948019F76B279248140561A86D3 /* Pods-Pennies to Pounds-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B2B51DB6862E1FC80DD53AED7E11AE /* Pods-Pennies to Pounds-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		749759A883AAC93A09B73C6E25DB39FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8DA8C0F23AA4CD8BC059838571C851C2 /* TransitionSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595509EEDCCA478C076BE826D30119AD /* TransitionSubmitButton.swift */; };
+		A0F37A6E0AE43EBDCB2EBBBE406D0205 /* Pods-Pennies to Pounds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727B7CCF0942F4A9CBAA43897E23483 /* Pods-Pennies to Pounds-dummy.m */; };
+		A7BE6D34490C7806C742985282C70225 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E677E6E08B17E4A005BF24BB91DE28 /* FadeTransition.swift */; };
+		DFC353048A0EF7504058811AD72C9D56 /* TKSubmitTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 280909ECA4603C91C8263A99960B9307 /* TKSubmitTransition-dummy.m */; };
+		F94C14EDC54A923A8A8549EC56D38F28 /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE5C05B6685ABC8AB49F4188283CC2 /* NSTimerEx.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9BA41FFF749E316499133D41C5882536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09359ABB9DD6B35EBD63E49D3DCC1E82;
+			remoteInfo = TKSubmitTransition;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0D884EED13F7053F4DC38C552E658EAE /* Pods-Pennies to Pounds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pennies to Pounds.debug.xcconfig"; sourceTree = "<group>"; };
-		11385DD1AF968960899E001543E700E5 /* Pods-Pennies to Pounds-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pennies to Pounds-dummy.m"; sourceTree = "<group>"; };
+		0727B7CCF0942F4A9CBAA43897E23483 /* Pods-Pennies to Pounds-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pennies to Pounds-dummy.m"; sourceTree = "<group>"; };
+		074D346041C401A0DE0F29FFF1865A21 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = iOS_SDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
+		1B4C9261EF8A791CD8533B03AC7B7F56 /* TKSubmitTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TKSubmitTransition.modulemap; sourceTree = "<group>"; };
+		21E677E6E08B17E4A005BF24BB91DE28 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = SubmitTransition/Classes/FadeTransition.swift; sourceTree = "<group>"; };
+		280909ECA4603C91C8263A99960B9307 /* TKSubmitTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKSubmitTransition-dummy.m"; sourceTree = "<group>"; };
+		334F9A332D79DAFF3007B6E5DEF9FA8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341446ACFD21FCE775260B11C829F3F2 /* TKSubmitTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKSubmitTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3420D02CF69664BE4F00DB384CAA0058 /* Pods-Pennies to Pounds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pennies to Pounds.debug.xcconfig"; sourceTree = "<group>"; };
+		34C83F24CDD222CF00DCA34544FCCAAC /* TKSubmitTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKSubmitTransition.xcconfig; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		42F74025894C06EFE2504CE788CDAC9C /* Pods-Pennies to Pounds-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pennies to Pounds-acknowledgements.plist"; sourceTree = "<group>"; };
-		52F5E0B4D2C6DF5BFDCD4A47644A47CD /* Pods-Pennies to Pounds-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pennies to Pounds-resources.sh"; sourceTree = "<group>"; };
-		63394EA2A03A7AB17A2E4E4A1856AEB6 /* libPods-Pennies to Pounds.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pennies to Pounds.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A98DA003BC3D16244E1E32F64E16E21 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = iOS_SDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
+		3F3AEC332170D7A45CF89B522C3FDC92 /* Pods-Pennies to Pounds-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pennies to Pounds-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A36328792E5EA3E3DBAD27888BA98BF /* Pods-Pennies to Pounds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pennies to Pounds.release.xcconfig"; sourceTree = "<group>"; };
+		4CE738FCF3288535388A79C1502D447F /* Pods_Pennies_to_Pounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pennies_to_Pounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5525919FCE7AEA462F1A5C81EC2F23E3 /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = SubmitTransition/Classes/SpinerLayer.swift; sourceTree = "<group>"; };
+		595509EEDCCA478C076BE826D30119AD /* TransitionSubmitButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionSubmitButton.swift; path = SubmitTransition/Classes/TransitionSubmitButton.swift; sourceTree = "<group>"; };
+		607EF4CC98793B30FECD782F5C543EA8 /* Pods-Pennies to Pounds-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pennies to Pounds-resources.sh"; sourceTree = "<group>"; };
+		6151EAEAF5209C18CCD04417B84DBFF0 /* Pods-Pennies to Pounds-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pennies to Pounds-frameworks.sh"; sourceTree = "<group>"; };
+		83AE5C05B6685ABC8AB49F4188283CC2 /* NSTimerEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSTimerEx.swift; path = SubmitTransition/Classes/NSTimerEx.swift; sourceTree = "<group>"; };
+		969DA213240A53F108ACC961872BE035 /* Pods-Pennies to Pounds.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pennies to Pounds.modulemap"; sourceTree = "<group>"; };
+		9AB181C1C3705AEC340EDD12E0C2EECD /* Pods-Pennies to Pounds-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pennies to Pounds-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0874839E91147A1B2087B7181333FE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D5744D64D66886410D8C9430BDAF05BE /* Pods-Pennies to Pounds-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pennies to Pounds-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F0E68C5A002F2E0BE04497EEC3AC9521 /* Pods-Pennies to Pounds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pennies to Pounds.release.xcconfig"; sourceTree = "<group>"; };
-		F4062FE673E4AF62A81C34610545D86F /* Pods-Pennies to Pounds-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pennies to Pounds-frameworks.sh"; sourceTree = "<group>"; };
+		BE7E66B7CDAC10B0A3901FA5C7262E5D /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = SubmitTransition/Classes/CGRectEx.swift; sourceTree = "<group>"; };
+		D4B2B51DB6862E1FC80DD53AED7E11AE /* Pods-Pennies to Pounds-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pennies to Pounds-umbrella.h"; sourceTree = "<group>"; };
+		E0F67A36B4FBCE7FEC47B3605F1657FB /* TKSubmitTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-prefix.pch"; sourceTree = "<group>"; };
+		F1120A25265706E26C67626B5A416425 /* TKSubmitTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5F4EB5B50C3ABEA24468BD94D0D71D18 /* Frameworks */ = {
+		59B031450AF67FF08C9B1C3B7C0D8F54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B356272427B250F46899E2448D73EE94 /* Foundation.framework in Frameworks */,
+				749759A883AAC93A09B73C6E25DB39FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690B5F5970AA75A417C2D0D3DCCA494A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525545230909B2C3F28A918235D9D0BB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6197AEF2C5F0FE22F8AA434E348DE4B3 /* Products */ = {
+		369F0FAFFC5AA2E2E706555BDA764987 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63394EA2A03A7AB17A2E4E4A1856AEB6 /* libPods-Pennies to Pounds.a */,
+				074D346041C401A0DE0F29FFF1865A21 /* OneSignal.framework */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6202124E9D433C3EA7B1CF2F09917CA5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B109A558AEC0464E1C8AD13A3517ECA8 /* OneSignal */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		71214A43C11E8FD75320EB045D42C6D0 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D0DD4C1AF9F59E74134E67D2DD974384 /* Pods-Pennies to Pounds */,
-			);
-			name = "Targets Support Files";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -66,18 +92,81 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				6202124E9D433C3EA7B1CF2F09917CA5 /* Pods */,
-				6197AEF2C5F0FE22F8AA434E348DE4B3 /* Products */,
-				71214A43C11E8FD75320EB045D42C6D0 /* Targets Support Files */,
+				A8F48670895CFA53AF8ECDFD5143D4A0 /* Pods */,
+				9C537CD1784FD90405178DE44359440C /* Products */,
+				B5BDBAC5FCD5540662F0A79407D8E850 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B109A558AEC0464E1C8AD13A3517ECA8 /* OneSignal */ = {
+		9C537CD1784FD90405178DE44359440C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF9CEBD734AC19E8ADE2CA12CDF9AD21 /* Frameworks */,
+				4CE738FCF3288535388A79C1502D447F /* Pods_Pennies_to_Pounds.framework */,
+				341446ACFD21FCE775260B11C829F3F2 /* TKSubmitTransition.framework */,
 			);
-			path = OneSignal;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00707A3BDA5589A4F66AA0A285E5E61 /* Pods-Pennies to Pounds */ = {
+			isa = PBXGroup;
+			children = (
+				334F9A332D79DAFF3007B6E5DEF9FA8C /* Info.plist */,
+				969DA213240A53F108ACC961872BE035 /* Pods-Pennies to Pounds.modulemap */,
+				9AB181C1C3705AEC340EDD12E0C2EECD /* Pods-Pennies to Pounds-acknowledgements.markdown */,
+				3F3AEC332170D7A45CF89B522C3FDC92 /* Pods-Pennies to Pounds-acknowledgements.plist */,
+				0727B7CCF0942F4A9CBAA43897E23483 /* Pods-Pennies to Pounds-dummy.m */,
+				6151EAEAF5209C18CCD04417B84DBFF0 /* Pods-Pennies to Pounds-frameworks.sh */,
+				607EF4CC98793B30FECD782F5C543EA8 /* Pods-Pennies to Pounds-resources.sh */,
+				D4B2B51DB6862E1FC80DD53AED7E11AE /* Pods-Pennies to Pounds-umbrella.h */,
+				3420D02CF69664BE4F00DB384CAA0058 /* Pods-Pennies to Pounds.debug.xcconfig */,
+				4A36328792E5EA3E3DBAD27888BA98BF /* Pods-Pennies to Pounds.release.xcconfig */,
+			);
+			name = "Pods-Pennies to Pounds";
+			path = "Target Support Files/Pods-Pennies to Pounds";
+			sourceTree = "<group>";
+		};
+		A8F48670895CFA53AF8ECDFD5143D4A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C46C5FD7D790079211BE73EE49CF5952 /* OneSignal */,
+				B0709A2D11870A0F7586787CB04032A3 /* TKSubmitTransition */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9E71A52229EE03D30C9BAACB04B1B2D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0874839E91147A1B2087B7181333FE9 /* Info.plist */,
+				1B4C9261EF8A791CD8533B03AC7B7F56 /* TKSubmitTransition.modulemap */,
+				34C83F24CDD222CF00DCA34544FCCAAC /* TKSubmitTransition.xcconfig */,
+				280909ECA4603C91C8263A99960B9307 /* TKSubmitTransition-dummy.m */,
+				E0F67A36B4FBCE7FEC47B3605F1657FB /* TKSubmitTransition-prefix.pch */,
+				F1120A25265706E26C67626B5A416425 /* TKSubmitTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TKSubmitTransition";
+			sourceTree = "<group>";
+		};
+		B0709A2D11870A0F7586787CB04032A3 /* TKSubmitTransition */ = {
+			isa = PBXGroup;
+			children = (
+				BE7E66B7CDAC10B0A3901FA5C7262E5D /* CGRectEx.swift */,
+				21E677E6E08B17E4A005BF24BB91DE28 /* FadeTransition.swift */,
+				83AE5C05B6685ABC8AB49F4188283CC2 /* NSTimerEx.swift */,
+				5525919FCE7AEA462F1A5C81EC2F23E3 /* SpinerLayer.swift */,
+				595509EEDCCA478C076BE826D30119AD /* TransitionSubmitButton.swift */,
+				A9E71A52229EE03D30C9BAACB04B1B2D /* Support Files */,
+			);
+			path = TKSubmitTransition;
+			sourceTree = "<group>";
+		};
+		B5BDBAC5FCD5540662F0A79407D8E850 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00707A3BDA5589A4F66AA0A285E5E61 /* Pods-Pennies to Pounds */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -96,47 +185,70 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D0DD4C1AF9F59E74134E67D2DD974384 /* Pods-Pennies to Pounds */ = {
+		C46C5FD7D790079211BE73EE49CF5952 /* OneSignal */ = {
 			isa = PBXGroup;
 			children = (
-				D5744D64D66886410D8C9430BDAF05BE /* Pods-Pennies to Pounds-acknowledgements.markdown */,
-				42F74025894C06EFE2504CE788CDAC9C /* Pods-Pennies to Pounds-acknowledgements.plist */,
-				11385DD1AF968960899E001543E700E5 /* Pods-Pennies to Pounds-dummy.m */,
-				F4062FE673E4AF62A81C34610545D86F /* Pods-Pennies to Pounds-frameworks.sh */,
-				52F5E0B4D2C6DF5BFDCD4A47644A47CD /* Pods-Pennies to Pounds-resources.sh */,
-				0D884EED13F7053F4DC38C552E658EAE /* Pods-Pennies to Pounds.debug.xcconfig */,
-				F0E68C5A002F2E0BE04497EEC3AC9521 /* Pods-Pennies to Pounds.release.xcconfig */,
+				369F0FAFFC5AA2E2E706555BDA764987 /* Frameworks */,
 			);
-			name = "Pods-Pennies to Pounds";
-			path = "Target Support Files/Pods-Pennies to Pounds";
-			sourceTree = "<group>";
-		};
-		FF9CEBD734AC19E8ADE2CA12CDF9AD21 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8A98DA003BC3D16244E1E32F64E16E21 /* OneSignal.framework */,
-			);
-			name = Frameworks;
+			path = OneSignal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		17239D44DB5BE9DCE673FAC99BBC4C7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5633E002DFEA4BB4F90CE3C18BE75197 /* TKSubmitTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24F6489EEA145B472D42DE50E4A4CFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71136948019F76B279248140561A86D3 /* Pods-Pennies to Pounds-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		C1997C346FE6999C3E6F5FF2F4336616 /* Pods-Pennies to Pounds */ = {
+		09359ABB9DD6B35EBD63E49D3DCC1E82 /* TKSubmitTransition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7609BCA24F5E7AE5121243E2D2995D3 /* Build configuration list for PBXNativeTarget "Pods-Pennies to Pounds" */;
+			buildConfigurationList = 0901DA8030F293F2B319F73076C8DFF3 /* Build configuration list for PBXNativeTarget "TKSubmitTransition" */;
 			buildPhases = (
-				213D9A8C1131607BABEFB056A765110E /* Sources */,
-				5F4EB5B50C3ABEA24468BD94D0D71D18 /* Frameworks */,
+				7685A89274D33756925CED2B3E09BF0A /* Sources */,
+				59B031450AF67FF08C9B1C3B7C0D8F54 /* Frameworks */,
+				17239D44DB5BE9DCE673FAC99BBC4C7D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = TKSubmitTransition;
+			productName = TKSubmitTransition;
+			productReference = 341446ACFD21FCE775260B11C829F3F2 /* TKSubmitTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3BEE698426DA657592217037F3A663B3 /* Pods-Pennies to Pounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D710AB8E689889BFC6148742F1376C /* Build configuration list for PBXNativeTarget "Pods-Pennies to Pounds" */;
+			buildPhases = (
+				4AD98284D25AA63E094F3FFE1148603A /* Sources */,
+				690B5F5970AA75A417C2D0D3DCCA494A /* Frameworks */,
+				F24F6489EEA145B472D42DE50E4A4CFA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4829972F7F82FCCB42EFDCE19294F84D /* PBXTargetDependency */,
+			);
 			name = "Pods-Pennies to Pounds";
 			productName = "Pods-Pennies to Pounds";
-			productReference = 63394EA2A03A7AB17A2E4E4A1856AEB6 /* libPods-Pennies to Pounds.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 4CE738FCF3288535388A79C1502D447F /* Pods_Pennies_to_Pounds.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -155,58 +267,102 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6197AEF2C5F0FE22F8AA434E348DE4B3 /* Products */;
+			productRefGroup = 9C537CD1784FD90405178DE44359440C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1997C346FE6999C3E6F5FF2F4336616 /* Pods-Pennies to Pounds */,
+				3BEE698426DA657592217037F3A663B3 /* Pods-Pennies to Pounds */,
+				09359ABB9DD6B35EBD63E49D3DCC1E82 /* TKSubmitTransition */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		213D9A8C1131607BABEFB056A765110E /* Sources */ = {
+		4AD98284D25AA63E094F3FFE1148603A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189AA305AA6670BE0A6A97CFC5448362 /* Pods-Pennies to Pounds-dummy.m in Sources */,
+				A0F37A6E0AE43EBDCB2EBBBE406D0205 /* Pods-Pennies to Pounds-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7685A89274D33756925CED2B3E09BF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C3393FCAC39EFE47E35D91F7C789B2 /* CGRectEx.swift in Sources */,
+				A7BE6D34490C7806C742985282C70225 /* FadeTransition.swift in Sources */,
+				F94C14EDC54A923A8A8549EC56D38F28 /* NSTimerEx.swift in Sources */,
+				64C928D2C3B26F277F726E55C59B663E /* SpinerLayer.swift in Sources */,
+				DFC353048A0EF7504058811AD72C9D56 /* TKSubmitTransition-dummy.m in Sources */,
+				8DA8C0F23AA4CD8BC059838571C851C2 /* TransitionSubmitButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4829972F7F82FCCB42EFDCE19294F84D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKSubmitTransition;
+			target = 09359ABB9DD6B35EBD63E49D3DCC1E82 /* TKSubmitTransition */;
+			targetProxy = 9BA41FFF749E316499133D41C5882536 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		00CC43D794DC97DAB4F43F8ABE292B33 /* Release */ = {
+		3B525241A1436697EE9DC13FED904DFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0E68C5A002F2E0BE04497EEC3AC9521 /* Pods-Pennies to Pounds.release.xcconfig */;
+			baseConfigurationReference = 34C83F24CDD222CF00DCA34544FCCAAC /* TKSubmitTransition.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKSubmitTransition/TKSubmitTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKSubmitTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKSubmitTransition/TKSubmitTransition.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TKSubmitTransition;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		8256CA08DA146A5DA7F64CDDBE92D571 /* Debug */ = {
+		70BA05269B5CEF002D8A60645AAF01CF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D884EED13F7053F4DC38C552E658EAE /* Pods-Pennies to Pounds.debug.xcconfig */;
+			baseConfigurationReference = 34C83F24CDD222CF00DCA34544FCCAAC /* TKSubmitTransition.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKSubmitTransition/TKSubmitTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKSubmitTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKSubmitTransition/TKSubmitTransition.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TKSubmitTransition;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -283,9 +439,79 @@
 			};
 			name = Release;
 		};
+		D35FC39C2FDCCC205E86D11D045149FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3420D02CF69664BE4F00DB384CAA0058 /* Pods-Pennies to Pounds.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pennies to Pounds/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pennies to Pounds/Pods-Pennies to Pounds.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Pennies_to_Pounds;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDDB439BCA4DEAB61567557F6DAE7662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A36328792E5EA3E3DBAD27888BA98BF /* Pods-Pennies to Pounds.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pennies to Pounds/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pennies to Pounds/Pods-Pennies to Pounds.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Pennies_to_Pounds;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0901DA8030F293F2B319F73076C8DFF3 /* Build configuration list for PBXNativeTarget "TKSubmitTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BA05269B5CEF002D8A60645AAF01CF /* Debug */,
+				3B525241A1436697EE9DC13FED904DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -295,11 +521,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7609BCA24F5E7AE5121243E2D2995D3 /* Build configuration list for PBXNativeTarget "Pods-Pennies to Pounds" */ = {
+		54D710AB8E689889BFC6148742F1376C /* Build configuration list for PBXNativeTarget "Pods-Pennies to Pounds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8256CA08DA146A5DA7F64CDDBE92D571 /* Debug */,
-				00CC43D794DC97DAB4F43F8ABE292B33 /* Release */,
+				D35FC39C2FDCCC205E86D11D045149FA /* Debug */,
+				EDDB439BCA4DEAB61567557F6DAE7662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

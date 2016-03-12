@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		843C08F96842005BE99A114C /* libPods-Pennies to Pounds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4736982EDAB8C800389E8C03 /* libPods-Pennies to Pounds.a */; };
+		3B01FDA53505CEB6C058C362 /* Pods_Pennies_to_Pounds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D1766B4E1E4202461101FC /* Pods_Pennies_to_Pounds.framework */; };
 		A96DAE1A1C93AAFB002333AE /* NewTransactionAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96DAE191C93AAFB002333AE /* NewTransactionAnnotationView.swift */; };
 		A96DAE1E1C93D7E7002333AE /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = A96DAE1D1C93D7E7002333AE /* FXBlurView.m */; };
+		A96DAE201C941861002333AE /* NewTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96DAE1F1C941861002333AE /* NewTransactionViewController.swift */; };
 		A9E854741C93698E00E6CCF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E854731C93698E00E6CCF3 /* AppDelegate.swift */; };
 		A9E854761C93698E00E6CCF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E854751C93698E00E6CCF3 /* ViewController.swift */; };
 		A9E854791C93698E00E6CCF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E854771C93698E00E6CCF3 /* Main.storyboard */; };
@@ -21,10 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4736982EDAB8C800389E8C03 /* libPods-Pennies to Pounds.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pennies to Pounds.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D1766B4E1E4202461101FC /* Pods_Pennies_to_Pounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pennies_to_Pounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96DAE191C93AAFB002333AE /* NewTransactionAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTransactionAnnotationView.swift; sourceTree = "<group>"; };
 		A96DAE1C1C93D7E7002333AE /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
 		A96DAE1D1C93D7E7002333AE /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		A96DAE1F1C941861002333AE /* NewTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTransactionViewController.swift; sourceTree = "<group>"; };
 		A9E854701C93698E00E6CCF3 /* Pennies to Pounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pennies to Pounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E854731C93698E00E6CCF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9E854751C93698E00E6CCF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843C08F96842005BE99A114C /* libPods-Pennies to Pounds.a in Frameworks */,
+				3B01FDA53505CEB6C058C362 /* Pods_Pennies_to_Pounds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +67,7 @@
 		37FE894DCE1E9114472FC144 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4736982EDAB8C800389E8C03 /* libPods-Pennies to Pounds.a */,
+				85D1766B4E1E4202461101FC /* Pods_Pennies_to_Pounds.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,6 +115,7 @@
 				A9E854881C9383B200E6CCF3 /* TransactionAnnotationView.swift */,
 				A9E8548E1C939BBD00E6CCF3 /* Pennies to Pounds-Bridging-Header.h */,
 				A96DAE191C93AAFB002333AE /* NewTransactionAnnotationView.swift */,
+				A96DAE1F1C941861002333AE /* NewTransactionViewController.swift */,
 			);
 			path = "Pennies to Pounds";
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				A9E854761C93698E00E6CCF3 /* ViewController.swift in Sources */,
 				A96DAE1E1C93D7E7002333AE /* FXBlurView.m in Sources */,
 				A9E854891C9383B200E6CCF3 /* TransactionAnnotationView.swift in Sources */,
+				A96DAE201C941861002333AE /* NewTransactionViewController.swift in Sources */,
 				A9E854911C939BBE00E6CCF3 /* Pulse.m in Sources */,
 				A9E854741C93698E00E6CCF3 /* AppDelegate.swift in Sources */,
 				A96DAE1A1C93AAFB002333AE /* NewTransactionAnnotationView.swift in Sources */,
