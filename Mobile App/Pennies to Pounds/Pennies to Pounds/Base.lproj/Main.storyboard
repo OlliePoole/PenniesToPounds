@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kB2-J3-fEn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AAp-hi-6WJ">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -159,16 +159,119 @@
                     <view key="view" contentMode="scaleToFill" id="7vx-FT-3jM">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0PO-cV-9w9">
+                                <rect key="frame" x="20" y="48" width="560" height="399"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lR-La-LwC">
+                                        <rect key="frame" x="241" y="38" width="117" height="82"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="60"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NRX-8h-N0W">
+                                        <rect key="frame" x="15" y="145" width="530" height="178"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tau-HQ-nGw">
+                                                <rect key="frame" x="0.0" y="0.0" width="265" height="178"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Savings Button" translatesAutoresizingMaskIntoConstraints="NO" id="uRu-0D-fqG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="265" height="150"/>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="SVS-5K-qno" appends="YES" id="AY4-JN-Iet"/>
+                                                        </connections>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Savings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAm-eY-LDg">
+                                                        <rect key="frame" x="0.0" y="150" width="265" height="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JqI-Gn-akL">
+                                                <rect key="frame" x="265" y="0.0" width="265" height="178"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Donate Button" translatesAutoresizingMaskIntoConstraints="NO" id="uoz-rv-3Zj">
+                                                        <rect key="frame" x="0.0" y="0.0" width="265" height="150"/>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="Tdu-za-Ya3" appends="YES" id="Y3G-nb-Jjs"/>
+                                                        </connections>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Donate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQm-b9-HIZ">
+                                                        <rect key="frame" x="0.0" y="150" width="265" height="28"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="BigPound Symbol" translatesAutoresizingMaskIntoConstraints="NO" id="W7H-RQ-bXw">
+                                        <rect key="frame" x="203" y="55" width="30" height="44"/>
+                                    </imageView>
+                                    <activityIndicatorView opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="1Aq-0a-bei">
+                                        <rect key="frame" x="132" y="209" width="37" height="37"/>
+                                    </activityIndicatorView>
+                                    <activityIndicatorView opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="xX7-lx-xll">
+                                        <rect key="frame" x="394" y="209" width="37" height="37"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.4549019608" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="NRX-8h-N0W" firstAttribute="centerX" secondItem="5lR-La-LwC" secondAttribute="centerX" constant="-19.5" id="71h-FL-CPU"/>
+                                    <constraint firstItem="NRX-8h-N0W" firstAttribute="top" secondItem="5lR-La-LwC" secondAttribute="bottom" constant="25" id="9N9-lm-aW4"/>
+                                    <constraint firstItem="5lR-La-LwC" firstAttribute="leading" secondItem="W7H-RQ-bXw" secondAttribute="trailing" constant="8" symbolic="YES" id="9vL-jH-LnN"/>
+                                    <constraint firstItem="5lR-La-LwC" firstAttribute="top" secondItem="0PO-cV-9w9" secondAttribute="top" constant="38" id="CpT-KI-apz"/>
+                                    <constraint firstItem="5lR-La-LwC" firstAttribute="centerX" secondItem="0PO-cV-9w9" secondAttribute="centerX" constant="19.5" id="H0w-Ze-e8R"/>
+                                    <constraint firstItem="xX7-lx-xll" firstAttribute="centerY" secondItem="NRX-8h-N0W" secondAttribute="centerY" constant="-6" id="Mup-E6-8iW"/>
+                                    <constraint firstItem="5lR-La-LwC" firstAttribute="centerY" secondItem="W7H-RQ-bXw" secondAttribute="centerY" constant="2" id="Sei-dd-1bb"/>
+                                    <constraint firstAttribute="bottom" secondItem="NRX-8h-N0W" secondAttribute="bottom" constant="76" id="URT-TS-3Of"/>
+                                    <constraint firstItem="xX7-lx-xll" firstAttribute="centerX" secondItem="0PO-cV-9w9" secondAttribute="centerX" multiplier="1.5" constant="-8" id="VSD-Nb-QF9"/>
+                                    <constraint firstItem="1Aq-0a-bei" firstAttribute="centerY" secondItem="NRX-8h-N0W" secondAttribute="centerY" constant="-6" id="jJB-sI-ee4"/>
+                                    <constraint firstItem="1Aq-0a-bei" firstAttribute="centerX" secondItem="0PO-cV-9w9" secondAttribute="centerX" multiplier="0.5" constant="10" id="qsx-6T-o5U"/>
+                                    <constraint firstItem="NRX-8h-N0W" firstAttribute="leading" secondItem="0PO-cV-9w9" secondAttribute="leading" constant="15" id="w5W-5n-6Be"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.75686274509803919" blue="0.75686274509803919" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0PO-cV-9w9" secondAttribute="trailing" constant="20" id="Qkf-gW-zEX"/>
+                            <constraint firstItem="0PO-cV-9w9" firstAttribute="height" secondItem="7vx-FT-3jM" secondAttribute="height" multiplier="0.65" constant="9" id="R2r-2z-Y4v"/>
+                            <constraint firstItem="0PO-cV-9w9" firstAttribute="leading" secondItem="7vx-FT-3jM" secondAttribute="leading" constant="20" id="WIA-QG-ysG"/>
+                            <constraint firstItem="0PO-cV-9w9" firstAttribute="top" secondItem="krt-tn-gAb" secondAttribute="bottom" constant="28" id="a1W-Zj-Xbe"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="donateIcon" destination="uoz-rv-3Zj" id="Low-NE-bLi"/>
+                        <outlet property="donateSpinner" destination="xX7-lx-xll" id="SIi-Bc-YF1"/>
+                        <outlet property="savingsIcon" destination="uRu-0D-fqG" id="obx-5w-4eB"/>
+                        <outlet property="savingsSpinner" destination="1Aq-0a-bei" id="JVX-hm-vlI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7cA-L3-AtC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="SVS-5K-qno">
+                    <connections>
+                        <action selector="makeSaving:" destination="AAp-hi-6WJ" id="XWD-iZ-Vuk"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Tdu-za-Ya3">
+                    <connections>
+                        <action selector="donate:" destination="AAp-hi-6WJ" id="cMN-RL-iwV"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1659" y="1120"/>
         </scene>
     </scenes>
     <resources>
+        <image name="BigPound Symbol" width="30" height="44"/>
+        <image name="Donate Button" width="117" height="117"/>
         <image name="Pound Symbol" width="16" height="23"/>
         <image name="Profile" width="63" height="63"/>
+        <image name="Savings Button" width="118" height="118"/>
     </resources>
 </document>

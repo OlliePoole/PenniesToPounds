@@ -9,27 +9,34 @@
 import UIKit
 
 class NewTransactionViewController: UIViewController {
-
+    
+    @IBOutlet weak var savingsIcon: UIImageView!
+    @IBOutlet weak var donateIcon: UIImageView!
+    
+    @IBOutlet weak var savingsSpinner: UIActivityIndicatorView!
+    @IBOutlet weak var donateSpinner: UIActivityIndicatorView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func makeSaving(sender: AnyObject) {
+        UIView.animateWithDuration(0.5) { () -> Void in
+            self.savingsIcon.alpha = 0
+            self.savingsSpinner.alpha = 1
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func donate(sender: AnyObject) {
+        
+        UIView.animateWithDuration(0.5, animations: { () -> Void in
+            self.donateIcon.alpha = 0
+            self.donateSpinner.alpha = 1
+            }) { (complete) -> Void in
+                
+        }
     }
-    */
 
 }
