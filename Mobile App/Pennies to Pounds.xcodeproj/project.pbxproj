@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B01FDA53505CEB6C058C362 /* Pods_Pennies_to_Pounds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D1766B4E1E4202461101FC /* Pods_Pennies_to_Pounds.framework */; };
+		A951A0631C9458C8008F11AF /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951A0621C9458C8008F11AF /* TransactionsViewController.swift */; };
+		A951A0651C945988008F11AF /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951A0641C945988008F11AF /* TransactionTableViewCell.swift */; };
+		A96DAE1A1C93AAFB002333AE /* NewTransactionAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96DAE191C93AAFB002333AE /* NewTransactionAnnotationView.swift */; };
+		A96DAE1E1C93D7E7002333AE /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = A96DAE1D1C93D7E7002333AE /* FXBlurView.m */; };
+		A96DAE201C941861002333AE /* NewTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96DAE1F1C941861002333AE /* NewTransactionViewController.swift */; };
+		A9E854741C93698E00E6CCF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E854731C93698E00E6CCF3 /* AppDelegate.swift */; };
+		A9E854761C93698E00E6CCF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E854751C93698E00E6CCF3 /* ViewController.swift */; };
+		A9E854791C93698E00E6CCF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E854771C93698E00E6CCF3 /* Main.storyboard */; };
+		A9E8547C1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9E8547A1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodeld */; };
+		A9E8547E1C93698E00E6CCF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E8547D1C93698E00E6CCF3 /* Assets.xcassets */; };
+		A9E854811C93698E00E6CCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E8547F1C93698E00E6CCF3 /* LaunchScreen.storyboard */; };
+		A9E854891C9383B200E6CCF3 /* TransactionAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E854881C9383B200E6CCF3 /* TransactionAnnotationView.swift */; };
+		A9E854911C939BBE00E6CCF3 /* Pulse.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E854901C939BBE00E6CCF3 /* Pulse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85D1766B4E1E4202461101FC /* Pods_Pennies_to_Pounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pennies_to_Pounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A951A0621C9458C8008F11AF /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		A951A0641C945988008F11AF /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		A96DAE191C93AAFB002333AE /* NewTransactionAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTransactionAnnotationView.swift; sourceTree = "<group>"; };
+		A96DAE1C1C93D7E7002333AE /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		A96DAE1D1C93D7E7002333AE /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		A96DAE1F1C941861002333AE /* NewTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTransactionViewController.swift; sourceTree = "<group>"; };
+		A9E854701C93698E00E6CCF3 /* Pennies to Pounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pennies to Pounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E854731C93698E00E6CCF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9E854751C93698E00E6CCF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9E854781C93698E00E6CCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9E8547B1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pennies_to_Pounds.xcdatamodel; sourceTree = "<group>"; };
+		A9E8547D1C93698E00E6CCF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9E854801C93698E00E6CCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9E854821C93698E00E6CCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E854881C9383B200E6CCF3 /* TransactionAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionAnnotationView.swift; sourceTree = "<group>"; };
+		A9E8548E1C939BBD00E6CCF3 /* Pennies to Pounds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pennies to Pounds-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9E8548F1C939BBE00E6CCF3 /* Pulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pulse.h; sourceTree = "<group>"; };
+		A9E854901C939BBE00E6CCF3 /* Pulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pulse.m; sourceTree = "<group>"; };
+		D7AF9803B44110C571E4E47E /* Pods-Pennies to Pounds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pennies to Pounds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pennies to Pounds/Pods-Pennies to Pounds.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD76967DFDD8E63275231AC /* Pods-Pennies to Pounds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pennies to Pounds.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pennies to Pounds/Pods-Pennies to Pounds.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9E8546D1C93698E00E6CCF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B01FDA53505CEB6C058C362 /* Pods_Pennies_to_Pounds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363C0FA25E775A1E19F4AA34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7AF9803B44110C571E4E47E /* Pods-Pennies to Pounds.debug.xcconfig */,
+				FDD76967DFDD8E63275231AC /* Pods-Pennies to Pounds.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		37FE894DCE1E9114472FC144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85D1766B4E1E4202461101FC /* Pods_Pennies_to_Pounds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A96DAE1B1C93D7E7002333AE /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				A96DAE1C1C93D7E7002333AE /* FXBlurView.h */,
+				A96DAE1D1C93D7E7002333AE /* FXBlurView.m */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
+		A9E854671C93698E00E6CCF3 = {
+			isa = PBXGroup;
+			children = (
+				A9E854721C93698E00E6CCF3 /* Pennies to Pounds */,
+				A9E854711C93698E00E6CCF3 /* Products */,
+				363C0FA25E775A1E19F4AA34 /* Pods */,
+				37FE894DCE1E9114472FC144 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9E854711C93698E00E6CCF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9E854701C93698E00E6CCF3 /* Pennies to Pounds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E854721C93698E00E6CCF3 /* Pennies to Pounds */ = {
+			isa = PBXGroup;
+			children = (
+				A96DAE1B1C93D7E7002333AE /* FXBlurView */,
+				A9E8548F1C939BBE00E6CCF3 /* Pulse.h */,
+				A9E854901C939BBE00E6CCF3 /* Pulse.m */,
+				A9E854731C93698E00E6CCF3 /* AppDelegate.swift */,
+				A9E854751C93698E00E6CCF3 /* ViewController.swift */,
+				A9E854771C93698E00E6CCF3 /* Main.storyboard */,
+				A9E8547D1C93698E00E6CCF3 /* Assets.xcassets */,
+				A9E8547F1C93698E00E6CCF3 /* LaunchScreen.storyboard */,
+				A9E854821C93698E00E6CCF3 /* Info.plist */,
+				A9E8547A1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodeld */,
+				A9E854881C9383B200E6CCF3 /* TransactionAnnotationView.swift */,
+				A9E8548E1C939BBD00E6CCF3 /* Pennies to Pounds-Bridging-Header.h */,
+				A96DAE191C93AAFB002333AE /* NewTransactionAnnotationView.swift */,
+				A96DAE1F1C941861002333AE /* NewTransactionViewController.swift */,
+				A951A0621C9458C8008F11AF /* TransactionsViewController.swift */,
+				A951A0641C945988008F11AF /* TransactionTableViewCell.swift */,
+			);
+			path = "Pennies to Pounds";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9E8546F1C93698E00E6CCF3 /* Pennies to Pounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E854851C93698E00E6CCF3 /* Build configuration list for PBXNativeTarget "Pennies to Pounds" */;
+			buildPhases = (
+				455705343A290720CF9D4B86 /* Check Pods Manifest.lock */,
+				A9E8546C1C93698E00E6CCF3 /* Sources */,
+				A9E8546D1C93698E00E6CCF3 /* Frameworks */,
+				A9E8546E1C93698E00E6CCF3 /* Resources */,
+				62619AED937E6A6F7F024514 /* Embed Pods Frameworks */,
+				87E31E7958BCD67DA85DAD8A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pennies to Pounds";
+			productName = "Pennies to Pounds";
+			productReference = A9E854701C93698E00E6CCF3 /* Pennies to Pounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9E854681C93698E00E6CCF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "George McDonnell";
+				TargetAttributes = {
+					A9E8546F1C93698E00E6CCF3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = JKJVZA6T7C;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A9E8546B1C93698E00E6CCF3 /* Build configuration list for PBXProject "Pennies to Pounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9E854671C93698E00E6CCF3;
+			productRefGroup = A9E854711C93698E00E6CCF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9E8546F1C93698E00E6CCF3 /* Pennies to Pounds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9E8546E1C93698E00E6CCF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E854811C93698E00E6CCF3 /* LaunchScreen.storyboard in Resources */,
+				A9E8547E1C93698E00E6CCF3 /* Assets.xcassets in Resources */,
+				A9E854791C93698E00E6CCF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		455705343A290720CF9D4B86 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62619AED937E6A6F7F024514 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pennies to Pounds/Pods-Pennies to Pounds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87E31E7958BCD67DA85DAD8A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pennies to Pounds/Pods-Pennies to Pounds-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9E8546C1C93698E00E6CCF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E8547C1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodeld in Sources */,
+				A9E854761C93698E00E6CCF3 /* ViewController.swift in Sources */,
+				A951A0631C9458C8008F11AF /* TransactionsViewController.swift in Sources */,
+				A96DAE1E1C93D7E7002333AE /* FXBlurView.m in Sources */,
+				A9E854891C9383B200E6CCF3 /* TransactionAnnotationView.swift in Sources */,
+				A96DAE201C941861002333AE /* NewTransactionViewController.swift in Sources */,
+				A951A0651C945988008F11AF /* TransactionTableViewCell.swift in Sources */,
+				A9E854911C939BBE00E6CCF3 /* Pulse.m in Sources */,
+				A9E854741C93698E00E6CCF3 /* AppDelegate.swift in Sources */,
+				A96DAE1A1C93AAFB002333AE /* NewTransactionAnnotationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9E854771C93698E00E6CCF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E854781C93698E00E6CCF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9E8547F1C93698E00E6CCF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E854801C93698E00E6CCF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9E854831C93698E00E6CCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9E854841C93698E00E6CCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9E854861C93698E00E6CCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7AF9803B44110C571E4E47E /* Pods-Pennies to Pounds.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Pennies to Pounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.georgemcdonnell.Pennies-to-Pounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pennies to Pounds/Pennies to Pounds-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9E854871C93698E00E6CCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD76967DFDD8E63275231AC /* Pods-Pennies to Pounds.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Pennies to Pounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.georgemcdonnell.Pennies-to-Pounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pennies to Pounds/Pennies to Pounds-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9E8546B1C93698E00E6CCF3 /* Build configuration list for PBXProject "Pennies to Pounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E854831C93698E00E6CCF3 /* Debug */,
+				A9E854841C93698E00E6CCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E854851C93698E00E6CCF3 /* Build configuration list for PBXNativeTarget "Pennies to Pounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E854861C93698E00E6CCF3 /* Debug */,
+				A9E854871C93698E00E6CCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9E8547A1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9E8547B1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodel */,
+			);
+			currentVersion = A9E8547B1C93698E00E6CCF3 /* Pennies_to_Pounds.xcdatamodel */;
+			path = Pennies_to_Pounds.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9E854681C93698E00E6CCF3 /* Project object */;
+}

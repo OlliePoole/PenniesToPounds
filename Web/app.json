@@ -1,6 +1,0 @@
-{
-  "name": "Pennies to Pounds - Server",
-  "description": "A server to run the Pennies to Pounds platform.",
-  "image": "heroku/gradle",
-  "addons": [ "heroku-postgresql" ]
-}

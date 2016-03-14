@@ -1,6 +1,0 @@
-framework module Pods_Pennies_to_Pounds {
-  umbrella header "Pods-Pennies to Pounds-umbrella.h"
-
-  export *
-  module * { export * }
-}
